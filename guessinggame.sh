@@ -14,9 +14,9 @@ while [[ $inputGuess -ne $files ]]
 do
 	if [[ $inputGuess -lt $files ]]
 	then
-		echo "Too low".
+		echo "Too low"
 	else
-		echo "Too high".
+		echo "Too high"
 	fi
 	verify
 done
